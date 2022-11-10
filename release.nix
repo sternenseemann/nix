@@ -95,6 +95,8 @@ let
         installCheckFlags = "sysconfdir=$(out)/etc";
 
         separateDebugInfo = true;
+
+        meta.platforms = lib.platforms.unix;
       });
 
 
